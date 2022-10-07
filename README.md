@@ -1,7 +1,12 @@
 # jay-nest: Sojka
 for fun, relax, clean mind, excersice...
 
-syntax
+basic syntax
 ``` python
-object | Jay(io_stream) ["Message to tell {value} of object"] 
+variable = object | Jay()
 ```
+is the same as
+```
+variable = object | Jay()
+```
+but in first case, the value of `object` is acquired.
