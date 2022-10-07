@@ -3,10 +3,21 @@ for fun, relax, clean mind, excersice...
 
 basic syntax
 ``` python
-variable = object | Jay()
+name = person.get('name') | Jay()
+print(name)
+```
+```
+[🐦» 'Name Surname' <class 'str'> ]
+Name surname
 ```
 is the same as
 ```
-variable = object | Jay()
+name = person.get('name')
+print(name)
 ```
-but in first case, the value of `object` is acquired.
+```
+Name surname
+```
+but in first case, the value of `object` is acquired and printed.
+
+
