@@ -11,7 +11,7 @@ print(name)
 Name surname
 ```
 is the same as
-```
+```python
 name = person.get('name')
 print(name)
 ```
