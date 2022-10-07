@@ -31,6 +31,11 @@ name = person.get('name') | Jay()["The name is: {name}"]
 
 The message acquired by `Jay` could be written to file or stream and ten won't be printed.
 ```python
-with open('jay_messages', 'a') as file_obj:
+with open('jay_messages.txt', 'a') as file_obj:
     name = person.get('name') | Jay(file_obj)["The name is: {name}"]
+```
+```
+FILE: jay_messages.txt
+-------------------------------------------------------------------------------------------------------
+The name is: Josef Novak
 ```
