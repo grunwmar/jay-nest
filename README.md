@@ -1,4 +1,4 @@
-# jay-nest: Sojka
+# jay-nest/Sojka
 for fun, relax, clean mind, excersice...
 
 basic syntax
